@@ -24,7 +24,6 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 .container-about-page{
-    /* border:2px solid red; */
     width:800px;
     margin:0 auto;
     box-sizing:border-box;
@@ -39,7 +38,6 @@ time, mark, audio, video {
 .header nav{
     display:flex;
     justify-content: space-evenly;
-    /* border: 2px solid blue; */
     width:70%;
     align-items:center;
 }
@@ -58,7 +56,6 @@ h2{
     margin-bottom:1.5%;
 }
 .about{
-    /* border:2px solid red; */
     width:89.5%;
     padding-left:3%;
     margin-left:3%;
@@ -86,11 +83,9 @@ h2{
     border-radius:10px;
     color:black;
     margin-top:2%
-    /* font-weight: bold; */
     
 }
 .box{
-    /* border:2px solid red; */
     width:45%;
     border-bottom: 1px dashed black;
     padding-bottom:4%;
@@ -100,7 +95,6 @@ h2{
 
 }
 .boxes{
-    /* border:2px solid blue; */
     display:flex;
     flex-flow:wrap;
     justify-content: space-evenly;
@@ -109,7 +103,6 @@ h2{
 
 }
 .bottom{
-    /* border: 2px solid blue; */
     margin:2% 0% 5% 7%;
     width:86%;
 }
