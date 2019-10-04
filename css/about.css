@@ -114,8 +114,9 @@ h2{
     width:86%;
 }
 footer {
-    width: 100%;
+    width: 90.5%;
     background: black;
+    margin-left:3.5%;
 }
 
 footer nav {

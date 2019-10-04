@@ -165,8 +165,10 @@ p {
 }
 
 footer {
-    width: 100%;
+    width: 92%;
     background: black;
+    margin-left:2%;
+    /* margin-right:7%; */
 }
 
 footer nav {
