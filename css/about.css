@@ -1,0 +1,133 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+.container-about-page{
+    /* border:2px solid red; */
+    width:800px;
+    margin:0 auto;
+    box-sizing:border-box;
+}
+.header{
+    display:flex;
+    justify-content:space-around;
+    flex-direction:row-reverse;
+    align-items:center;
+    margin:2% 0;
+}
+.header nav{
+    display:flex;
+    justify-content: space-evenly;
+    /* border: 2px solid blue; */
+    width:70%;
+    align-items:center;
+}
+.header nav a{
+    text-decoration: none;
+    color:black;
+}
+.jumbo{
+    width:93%;
+    margin:0 0% 2% 2.7%
+}
+h2{
+    font-weight: bold;
+}
+.about h2{
+    margin-bottom:1.5%;
+}
+.about{
+    /* border:2px solid red; */
+    width:89.5%;
+    padding-left:3%;
+    margin-left:3%;
+    padding-bottom: 3%;
+    border-bottom: 1px dashed gray;
+    margin-bottom:2%;
+    
+}
+.box img{
+    width:100%;
+    margin-bottom:2%
+}
+.box h2{
+    margin-bottom:4%
+}
+.box p{
+    padding-bottom:3%
+}
+.learn{
+    border:2px solid black;
+    display:flex; 
+    width:25%;
+    padding:3% 3% 0% 6%;
+    text-align:center;
+    border-radius:10px;
+    color:black;
+    margin-top:2%
+    /* font-weight: bold; */
+    
+}
+.box{
+    /* border:2px solid red; */
+    width:45%;
+    border-bottom: 1px dashed black;
+    padding-bottom:4%;
+    padding-top:2%;
+    margin-bottom:2%;
+    
+
+}
+.boxes{
+    /* border:2px solid blue; */
+    display:flex;
+    flex-flow:wrap;
+    justify-content: space-evenly;
+    width:93%;
+    margin:0 0% 0% 2.5%
+
+}
+.bottom{
+    /* border: 2px solid blue; */
+    margin:2% 0% 5% 7%;
+    width:86%;
+}
+footer {
+    width: 100%;
+    background: black;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+}
